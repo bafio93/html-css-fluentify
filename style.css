@@ -26,7 +26,6 @@ div.nav_left, div.nav_right {
 
 div.nav_left {
     width: 60%;
-    border: 1px solid pink;
     float: left;
     line-height: 80px;
 }
@@ -52,7 +51,6 @@ div.nav_left {
 
 div.nav_right {
     width: 40%;
-    border: 1px solid pink;
     float: left;
     line-height: 80px;
 }
@@ -89,14 +87,12 @@ li a.green_button {
     position: relative;
     height: 470px;
     width: 100%;
-    border: 1px solid pink;
     float: left;
 }
 
 .half_jumbo {
     width: 35%;
     height: 100%;
-    border: 1px solid pink;
 }
 
 .half_jumbo>h1 {
@@ -119,4 +115,21 @@ li a.green_button {
     background-color: rgb(124,187,2);
     color: white;
     text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* istruzioni per stilare contenitore claim */
+
+div.claim {
+    background-color: rgb(211,211,211);
+    text-align: center;
+}
+
+div.claim h2 {
+    padding: 30px 0 10px;
+}
+
+div.claim p {
+    color: rgb(146,146,146);
+    padding-bottom: 30px;
 }
