@@ -138,7 +138,7 @@ div.claim p {
 
 .all_offers {
     width: 100%;
-    padding: 0 12.5%;
+    padding: 0 10%;
 }
 
 .all_offers:after {
@@ -149,7 +149,7 @@ div.claim p {
 }
 
 .offer {
-    width: 30%;
+    width: 33.3333333%;
     padding: 0 calc(10% / 6);
     float: left;
     text-align: center;
@@ -158,6 +158,10 @@ div.claim p {
 .offer img {
     max-height: 200px;
     margin: 20px 0;
+}
+
+img#bad_one {
+    margin-bottom: 35px;
 }
 
 .offer h2 {
@@ -178,3 +182,48 @@ div.claim p {
 }
 
 /* istruzioni per stilare contenitore discover */
+
+.discover {
+    padding: 30px 10%;
+}
+
+.discover:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.discover_left {
+    width: 50%;
+    padding: 0 10%;
+    float: left;
+}
+
+figure img {
+    max-width: 100%;
+}
+
+.discover_right {
+    width: 50%;
+    padding: 0 10%;
+    float: right;
+}
+
+.discover_right h2 {
+    font-size: 175%;
+    font-weight: bold;
+}
+
+.discover_right p {
+    color: rgb(146,146,146);
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.discover_right a {
+    font-size: 80%;
+    color: rgb(85,134,188);
+}
+
+/* istruzioni per stilare "footer" */
