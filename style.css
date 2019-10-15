@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-color: rgb(12,50,90);
+    height: 550px;
+    padding-left: 80px;
+}
+
+nav:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div.nav_left, div.nav_right {
+    height: 80px;
+    text-transform: uppercase;
+}
+
+/* istruzioni per stilare contenitore nav_left */
+
+div.nav_left {
+    width: 60%;
+    border: 1px solid pink;
+    float: left;
+    line-height: 80px;
+}
+
+.nav_left ul li a {
+    color: white;
+    font-size: 70%;
+    text-decoration: none;
+}
+
+.nav_left ul {
+    float: right;
+    margin-right: 160px;
+}
+
+.nav_left li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
+
+/* istruzioni per stilare contenitore nav_right */
+
+div.nav_right {
+    width: 40%;
+    border: 1px solid pink;
+    float: left;
+    line-height: 80px;
+}
+
+.nav_right ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 70%;
+}
+
+.nav_right li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px;
+}
+
+li a.blue_button {
+    margin: 0 15px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+li a.green_button {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(124,187,2);
+    background-color: rgb(124,187,2);
+}
+
+/* istruzioni per stilare contenitore jumbo */
