@@ -84,3 +84,39 @@ li a.green_button {
 }
 
 /* istruzioni per stilare contenitore jumbo */
+
+.jumbo {
+    position: relative;
+    height: 470px;
+    width: 100%;
+    border: 1px solid pink;
+    float: left;
+}
+
+.half_jumbo {
+    width: 35%;
+    height: 100%;
+    border: 1px solid pink;
+}
+
+.half_jumbo>h1 {
+    color: white;
+    font-size: 250%;
+    margin: 35% 0 10%;
+}
+
+.old_man {
+    max-height: 400px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.half_jumbo>a.green_button {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(124,187,2);
+    background-color: rgb(124,187,2);
+    color: white;
+    text-decoration: none;
+}
