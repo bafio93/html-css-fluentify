@@ -36,6 +36,10 @@ div.nav_left {
     text-decoration: none;
 }
 
+.nav_left ul li a:hover {
+    color: orange;
+}
+
 .nav_left ul {
     float: right;
     margin-right: 160px;
